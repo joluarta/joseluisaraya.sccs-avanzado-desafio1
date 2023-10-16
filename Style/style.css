@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+.principal {
+  display: flex;
+}
+
+/*logo*/
+.logo {
+  width: 70%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.logo-img{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img img{
+  padding-top: 20%;
+  width: 30%;
+  height: auto;
+}
+
+.parrafos {
+  font-family: 'Roboto Flex', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/*termino logo*/
+
+/*chat*/
+.chat {
+  width: 30%;
+  background-color:#fff;
+  border: solid 1px #444749; 
+  }
+/*Contactos*/
+.nombre {
+    font-family: 'Roboto Flex', sans-serif;
+    flex-direction: column;
+    font-size: 14px;
+}
+.estado {
+    flex-direction: column;
+    color: #b5b9af;
+}
+
+/*listado*/
+.perfil img {
+  margin: 10px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.maria {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.juanita {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.alberto {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.ignacio {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.cristian {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.mariajose {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.gonzalo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.juanpablo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.magdalena {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+
+/*boton*/
+
+.botonDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10% 10% 10% 10%; 
+}
+.botonnuevochat {
+  border-radius: 8px;
+  padding: 10px 1px;
+  background-color: #a491d2;
+  font-size: 20px;
+  color:white;
+}
+
+
+/*Pestalla y Lista*/
+i {
+  color:black;
+} 
+.perfil{
+  display: flex;
+  align-items: center;
+  border: solid 1px #444749;
+  height: 100px;
+}
+.icono{
+  display:flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+}
